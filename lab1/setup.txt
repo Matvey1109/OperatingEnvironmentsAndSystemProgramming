@@ -1,0 +1,5 @@
+brew install mingw-w64
+x86_64-w64-mingw32-g++ -o myprogram.exe main.c -lkernel32
+wine myprogram.exe
+wine taskmgr
+WRITE IN C LANGUAGE

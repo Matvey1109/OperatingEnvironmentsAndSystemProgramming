@@ -1,0 +1,11 @@
+MIB_TCP_STATE_CLOSED (1): The TCP connection is closed.
+MIB_TCP_STATE_LISTEN (2): The socket is listening for incoming connections.
+MIB_TCP_STATE_SYN_SENT (3): The socket sent a connection request and is waiting for an acknowledgment.
+MIB_TCP_STATE_SYN_RCVD (4): The socket received a connection request and sent an acknowledgment.
+MIB_TCP_STATE_ESTAB (5): The socket has an established connection.
+MIB_TCP_STATE_FIN_WAIT1 (6): The socket is closed but is waiting for a connection termination request from the remote endpoint.
+MIB_TCP_STATE_FIN_WAIT2 (7): The socket is waiting for a connection termination request from the remote endpoint after sending its own request.
+MIB_TCP_STATE_CLOSE_WAIT (8): The socket has received a connection termination request and is waiting for the application to close the connection.
+MIB_TCP_STATE_CLOSING (9): The socket is waiting for a connection termination request acknowledgment after sending its own request.
+MIB_TCP_STATE_LAST_ACK (10): The socket is waiting for a final acknowledgment after sending a connection termination request.
+MIB_TCP_STATE_TIME_WAIT (11): The socket is waiting after closing for any residual packets to ensure they are not mistaken for the next connection.
